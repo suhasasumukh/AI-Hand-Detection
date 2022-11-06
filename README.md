@@ -1,5 +1,5 @@
 # AI-Hand-Detection
-Hand Detection using Python and Python Libraries (OpenCV)
+Hand Detection using Python. Using Dot structures to detect Human Hand.
 
 ## Software Requirements
 
