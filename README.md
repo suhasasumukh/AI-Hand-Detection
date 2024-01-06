@@ -1,4 +1,4 @@
-## Real-Time Hand Tracking with OpenCV and MediaPipe
+## Real Time Hand Tracking with OpenCV and MediaPipe
 
 ### Overview
 
