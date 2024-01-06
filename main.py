@@ -33,7 +33,7 @@ def main():
         processed_image = process_hand_landmarks(image, hands)
 
         cv2.imshow('Handtracker', processed_image)
-        if cv2.waitKey(1) & 0xFF == 27:  # Press 'Esc' to exit
+        if cv2.waitKey(1) & 0xFF == 27:
             break
 
     cap.release()
