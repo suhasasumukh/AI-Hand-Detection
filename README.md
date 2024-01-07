@@ -1,4 +1,5 @@
 ## Real Time Hand Tracking with OpenCV and MediaPipe
+<img src="https://img.shields.io/badge/Maintained-Yes-indigo" />
 
 ### Overview
 
