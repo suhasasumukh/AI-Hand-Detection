@@ -1,6 +1,9 @@
 ## Real Time Hand Tracking with OpenCV and MediaPipe
 <img src="https://img.shields.io/badge/Maintained-Yes-indigo" />
 
+![image](https://github.com/suhasasumukh/AI-Hand-Detection/assets/70210383/5b320d74-4a1f-4679-a6ed-659dfbf3b458)
+
+
 ### Overview
 
 This project utilizes OpenCV and MediaPipe to enable real time hand tracking using a webcam. The application captures video input, processes it to identify hand landmarks, and displays the tracked landmarks on the screen.
