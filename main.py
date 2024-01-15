@@ -9,6 +9,7 @@ def process_hand_landmarks(image, hands_detector):
     image_rgb = cv2.cvtColor(cv2.flip(image, 1), cv2.COLOR_BGR2RGB)
     results = hands_detector.process(image_rgb)
     image_bgr = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2BGR)
+    
 
     if results.multi_hand_landmarks:
         for hand_landmarks in results.multi_hand_landmarks:
@@ -19,17 +20,20 @@ def process_hand_landmarks(image, hands_detector):
             )
 
     return image_bgr
+    
 
 def main():
     cap = cv2.VideoCapture(0)
     hands = mphands.Hands()
 
+    
     while True:
         ret, image = cap.read()
         if not ret:
-            print("Failed to capture frame.")
+            print("Failed to capture video frame")
             break
 
+        
         processed_image = process_hand_landmarks(image, hands)
 
         cv2.imshow('Handtracker', processed_image)
